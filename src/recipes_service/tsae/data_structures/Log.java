@@ -75,26 +75,23 @@ public class Log implements Serializable{
 		// ....
 		String idHost = op.getTimestamp().getHostid();
 		List<Operation> operationList = log.get(idHost);
-		if (operationList.isEmpty()|| operationList == null)
+		Timestamp last;
+		if (!operationList.isEmpty())
 		{
-			if (op.getTimestamp().compare(null)< 0 )
-			{
-				return false;
-			}
-
+			last = operationList.get(operationList.size()-1).getTimestamp();
 		}else
 		{
-			Timestamp lastTimestamp = operationList.get(operationList.size() - 1).getTimestamp();
-			if (op.getTimestamp().compare(lastTimestamp)< 0)
-			{
-				return false;
-
-			}
+			last= null;
 		}
 		
-		log.get(idHost).add(op);
-		// return generated automatically. Remove it when implementing your solution 
-		return true;
+		if (op.getTimestamp().compare(last)<0)
+		{
+			return false;
+		}else
+		{
+			log.get(idHost).add(op);
+			return true;				
+		}
 	}
 	
 	public List<Operation> listNewer(TimestampVector sum){
@@ -118,7 +115,7 @@ public class Log implements Serializable{
 	 */
 	@Override
 	public boolean equals(Object obj) {
-		if ((obj == null )&& !(obj instanceof Log))
+		if (obj == null )
 		{
 			return false;
 		}
@@ -126,9 +123,13 @@ public class Log implements Serializable{
 		{
 			return true;
 		}
+		if(getClass()!=obj.getClass())
+		{
+			return false;
+		}
 		Log newLog=(Log) obj;
 
-		return this.log.equals(newLog.log);
+		return log.equals(newLog.log);
 	}
 
 	/**
