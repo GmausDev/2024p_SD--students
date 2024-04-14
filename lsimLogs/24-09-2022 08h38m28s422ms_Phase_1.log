@@ -1,0 +1,512 @@
+24-09-2022 08:38:28:443 Phase_1 [INFO] : List of users: [user0, user1, user2, user3, user4]
+24-09-2022 08:38:28:445 Phase_1 [INFO] : List of operations:
+[AddOperation [recipe=[ftyqqryp, Content--ftyqqryp, user0], timestamp=user0:   0], AddOperation [recipe=[vgrxismv, Content--vgrxismv, user2], timestamp=user2:   0], AddOperation [recipe=[mrtsccko, Content--mrtsccko, user1], timestamp=user1:   0], AddOperation [recipe=[mtxhcsxk, Content--mtxhcsxk, user4], timestamp=user4:   0], AddOperation [recipe=[igutjmas, Content--igutjmas, user2], timestamp=user2:   1], AddOperation [recipe=[enwxuoaq, Content--enwxuoaq, user2], timestamp=user2:   2], AddOperation [recipe=[naenayif, Content--naenayif, user3], timestamp=user3:   0], AddOperation [recipe=[paqhlrar, Content--paqhlrar, user3], timestamp=user3:   1], AddOperation [recipe=[guimxcvn, Content--guimxcvn, user4], timestamp=user4:   1], AddOperation [recipe=[brqcmawf, Content--brqcmawf, user3], timestamp=user3:   2], AddOperation [recipe=[wvfvcioe, Content--wvfvcioe, user0], timestamp=user0:   1], AddOperation [recipe=[jdpmsrot, Content--jdpmsrot, user4], timestamp=user4:   2], AddOperation [recipe=[bycjuiap, Content--bycjuiap, user2], timestamp=user2:   3], AddOperation [recipe=[prrrbyyq, Content--prrrbyyq, user4], timestamp=user4:   3], AddOperation [recipe=[ayxlnxfj, Content--ayxlnxfj, user0], timestamp=user0:   2], AddOperation [recipe=[fbybqmkf, Content--fbybqmkf, user1], timestamp=user1:   1], AddOperation [recipe=[clibbrbl, Content--clibbrbl, user2], timestamp=user2:   4], AddOperation [recipe=[qycxccpi, Content--qycxccpi, user1], timestamp=user1:   2], AddOperation [recipe=[jeqkicvn, Content--jeqkicvn, user0], timestamp=user0:   3], AddOperation [recipe=[gsktxxsh, Content--gsktxxsh, user1], timestamp=user1:   3], AddOperation [recipe=[nhmswiev, Content--nhmswiev, user4], timestamp=user4:   4], AddOperation [recipe=[gjtvehkq, Content--gjtvehkq, user0], timestamp=user0:   4], AddOperation [recipe=[rlretsfx, Content--rlretsfx, user2], timestamp=user2:   5], AddOperation [recipe=[hnsfjsrm, Content--hnsfjsrm, user0], timestamp=user0:   5], AddOperation [recipe=[dtuaotah, Content--dtuaotah, user4], timestamp=user4:   5], AddOperation [recipe=[vqkrfrdd, Content--vqkrfrdd, user2], timestamp=user2:   6], AddOperation [recipe=[hlvdoryn, Content--hlvdoryn, user1], timestamp=user1:   4], AddOperation [recipe=[srhvddam, Content--srhvddam, user2], timestamp=user2:   7], AddOperation [recipe=[jfyqttss, Content--jfyqttss, user4], timestamp=user4:   6], AddOperation [recipe=[tustxmqr, Content--tustxmqr, user0], timestamp=user0:   6], AddOperation [recipe=[vribeukc, Content--vribeukc, user3], timestamp=user3:   3], AddOperation [recipe=[xakmtotn, Content--xakmtotn, user4], timestamp=user4:   7], AddOperation [recipe=[skotncrs, Content--skotncrs, user2], timestamp=user2:   8], AddOperation [recipe=[tluqowex, Content--tluqowex, user2], timestamp=user2:   9], AddOperation [recipe=[lupjjovh, Content--lupjjovh, user3], timestamp=user3:   4], AddOperation [recipe=[qbmyxmeo, Content--qbmyxmeo, user3], timestamp=user3:   5], AddOperation [recipe=[ooqduvgv, Content--ooqduvgv, user4], timestamp=user4:   8], AddOperation [recipe=[hauelsfc, Content--hauelsfc, user1], timestamp=user1:   5], AddOperation [recipe=[jvuacyfw, Content--jvuacyfw, user3], timestamp=user3:   6], AddOperation [recipe=[kpetxjqi, Content--kpetxjqi, user1], timestamp=user1:   6], AddOperation [recipe=[fdfyucma, Content--fdfyucma, user2], timestamp=user2:   10], AddOperation [recipe=[lvckthrq, Content--lvckthrq, user4], timestamp=user4:   9], AddOperation [recipe=[booxoevo, Content--booxoevo, user3], timestamp=user3:   7], AddOperation [recipe=[pytljyec, Content--pytljyec, user4], timestamp=user4:   10], AddOperation [recipe=[cefxgrfy, Content--cefxgrfy, user3], timestamp=user3:   8], AddOperation [recipe=[nikvppdg, Content--nikvppdg, user3], timestamp=user3:   9], AddOperation [recipe=[phmfgbsu, Content--phmfgbsu, user3], timestamp=user3:   10], AddOperation [recipe=[fewjqkrh, Content--fewjqkrh, user3], timestamp=user3:   11], AddOperation [recipe=[yjcaeuhb, Content--yjcaeuhb, user1], timestamp=user1:   7], AddOperation [recipe=[roppuwew, Content--roppuwew, user4], timestamp=user4:   11]]
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   0
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   0
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   0
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   0
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   1
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   2
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   0
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   1
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   1
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   2
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:446 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   1
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   2
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   3
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   3
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   2
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   1
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   4
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   2
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   3
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   3
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   4
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   4
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   5
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   5
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   5
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   6
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   4
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   7
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   6
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user0:   6
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   3
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   7
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   8
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   9
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   4
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   5
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   8
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   5
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   6
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   6
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user2:   10
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   9
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   7
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   10
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   8
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   9
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   10
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user3:   11
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user1:   7
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Log updated:
+
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: user4:   11
+24-09-2022 08:38:28:447 Phase_1 [TRACE] : Summary updated:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
+24-09-2022 08:38:28:447 Phase_1 [INFO] : Log:
+
+24-09-2022 08:38:28:447 Phase_1 [INFO] : Summary:
+user1:   -1000
+user2:   -1000
+user0:   -1000
+user3:   -1000
+user4:   -1000
+
