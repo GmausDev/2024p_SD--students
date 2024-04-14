@@ -73,19 +73,30 @@ public class Log implements Serializable{
 	 */
 	public boolean add(Operation op){
 		// ....
+		String idHost = op.getTimestamp().getHostid();
+		List<Operation> operationList = log.get(idHost);
+		if (operationList.isEmpty())
+		{
+			if (op.getTimestamp().compare(null)< 0 )
+			{
+				return false;
+			}
+
+		}else
+		{
+			Timestamp lastTimestamp = operationList.get(operationList.size() - 1).getTimestamp();
+			if (op.getTimestamp().compare(lastTimestamp)< 0)
+			{
+				return false;
+
+			}
+		}
 		
+		log.get(idHost).add(op);
 		// return generated automatically. Remove it when implementing your solution 
-		return false;
+		return true;
 	}
 	
-	/**
-	 * Checks the received summary (sum) and determines the operations
-	 * contained in the log that have not been seen by
-	 * the proprietary of the summary.
-	 * Returns them in an ordered list.
-	 * @param sum
-	 * @return list of operations
-	 */
 	public List<Operation> listNewer(TimestampVector sum){
 
 		// return generated automatically. Remove it when implementing your solution 
@@ -107,9 +118,17 @@ public class Log implements Serializable{
 	 */
 	@Override
 	public boolean equals(Object obj) {
-		
-		// return generated automatically. Remove it when implementing your solution 
-		return false;
+		if ((obj == null )&& !(obj instanceof Log))
+		{
+			return false;
+		}
+		if(this == obj)
+		{
+			return true;
+		}
+		Log newLog=(Log) obj;
+
+		return this.log.equals(newLog.log);
 	}
 
 	/**
