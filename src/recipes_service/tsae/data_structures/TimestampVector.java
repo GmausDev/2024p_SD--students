@@ -64,7 +64,7 @@ public class TimestampVector implements Serializable{
 	 * Updates the timestamp vector with a new timestamp. 
 	 * @param timestamp
 	 */
-	public void updateTimestamp(Timestamp timestamp){
+	public synchronized void updateTimestamp(Timestamp timestamp){
 		LSimLogger.log(Level.TRACE, "Updating the TimestampVectorInserting with the timestamp: "+timestamp);
 		if (timestamp!=null) timestampVector.put(timestamp.getHostid(),timestamp);
 	}
@@ -111,7 +111,7 @@ public class TimestampVector implements Serializable{
 	 */
 	public boolean equals(Object obj){
 		if(this == obj) return true;
-		if(obj== null|| getClass() != obj.getClass()) return false;
+		if(obj== null || getClass() != obj.getClass()) return false;
 		TimestampVector objTimeStamp = (TimestampVector) obj;
 		return timestampVector.equals(objTimeStamp.timestampVector);
 	}

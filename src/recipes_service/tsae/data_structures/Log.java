@@ -71,11 +71,11 @@ public class Log implements Serializable{
 	 * @param op
 	 * @return true if op is inserted, false otherwise.
 	 */
-	public boolean add(Operation op){
+	public synchronized boolean add(Operation op){
 		// ....
 		String idHost = op.getTimestamp().getHostid();
 		List<Operation> operationList = log.get(idHost);
-		if (operationList.isEmpty())
+		if (operationList.isEmpty()|| operationList == null)
 		{
 			if (op.getTimestamp().compare(null)< 0 )
 			{
