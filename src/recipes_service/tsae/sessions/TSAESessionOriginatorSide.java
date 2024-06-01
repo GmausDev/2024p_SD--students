@@ -158,7 +158,8 @@ public class TSAESessionOriginatorSide extends TimerTask{
 
 			}			
 			socket.close();
-		} catch (ClassNotFoundException e) {
+		}
+	} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			LSimLogger.log(Level.FATAL, "[TSAESessionOriginatorSide] [session: "+current_session_number+"]" + e.getMessage());
 			e.printStackTrace();
