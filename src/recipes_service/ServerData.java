@@ -252,4 +252,15 @@ public class ServerData {
 	public synchronized void notifyServerConnected(){
 		notifyAll();
 	}
+
+	
+	public synchronized void execOperation(Operation op) {
+		if (log.add(op)) {
+			if (op.getType().equals(OperationType.ADD)) {
+				recipes.add(((AddOperation)op).getRecipe());
+			} else {
+				recipes.remove(((RemoveOperation)op).getRecipeTitle());
+			}
+		}
+	}
 }

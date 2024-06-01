@@ -73,31 +73,55 @@ public class Log implements Serializable{
 	 */
 	public synchronized boolean add(Operation op){
 		// ....
-		String idHost = op.getTimestamp().getHostid();
-		List<Operation> operationList = log.get(idHost);
-		Timestamp last;
-		if (!operationList.isEmpty())
-		{
-			last = operationList.get(operationList.size()-1).getTimestamp();
-		}else
-		{
-			last= null;
-		}
+		// String idHost = op.getTimestamp().getHostid();
+		// List<Operation> operationList = log.get(idHost);
+		// Timestamp last;
+		// if (!operationList.isEmpty())
+		// {
+		// 	last = operationList.get(operationList.size()-1).getTimestamp();
+		// }else
+		// {
+		// 	last= null;
+		// }
 		
-		if (op.getTimestamp().compare(last)<0)
-		{
-			return false;
-		}else
-		{
-			log.get(idHost).add(op);
-			return true;				
+		// if (op.getTimestamp().compare(last)<0)
+		// {
+		// 	return false;
+		// }else
+		// {
+		// 	log.get(idHost).add(op);
+		// 	return true;				
+		// }
+		List<Operation> principalLog = log.get(op.getTimestamp().getHostid());
+		if (principalLog.size() > 0) {
+			Operation lastOp = principalLog.get(principalLog.size() - 1);
+			if (lastOp.getTimestamp().compare(op.getTimestamp()) >= 0) {
+				return false;
+			}
 		}
+		principalLog.add(op);
+		log.put(op.getTimestamp().getHostid(), principalLog);
+		return true;
 	}
 	
-	public List<Operation> listNewer(TimestampVector sum){
+	public synchronized List<Operation> listNewer(TimestampVector sum){
 
-		// return generated automatically. Remove it when implementing your solution 
-		return null;
+		List<Operation> list = new Vector<Operation>();
+		List<String> participants = new Vector<String>(this.log.keySet());
+
+		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
+			String node = it.next();
+			List<Operation> operations = new Vector<Operation>(this.log.get(node));
+			Timestamp timestampToCompare = sum.getLast(node);
+
+			for (Iterator<Operation> opIt = operations.iterator(); opIt.hasNext(); ) {
+				Operation op = opIt.next();
+				if (op.getTimestamp().compare(timestampToCompare) > 0) {
+					list.add(op);
+				}
+			}
+		}
+		return list;
 	}
 	
 	/**
@@ -107,7 +131,18 @@ public class Log implements Serializable{
 	 * ackSummary. 
 	 * @param ack: ackSummary.
 	 */
-	public void purgeLog(TimestampMatrix ack){
+	public synchronized void purgeLog(TimestampMatrix ack){
+
+		List<String> participants = new Vector<String>(this.log.keySet());
+		TimestampVector min = ack.minTimestampVector();
+		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
+			String node = it.next();
+			for (Iterator<Operation> opIt = log.get(node).iterator(); opIt.hasNext();) {
+				if (min.getLast(node) != null && opIt.next().getTimestamp().compare(min.getLast(node)) <= 0) {
+					opIt.remove();
+				}
+			}
+		}
 	}
 
 	/**
