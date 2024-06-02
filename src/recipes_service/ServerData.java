@@ -48,6 +48,7 @@ import recipes_service.tsae.sessions.TSAESessionOriginatorSide;
  */
 public class ServerData {
 	
+	private String groupId;
 	// server id
 	private String id;
 	
@@ -153,23 +154,34 @@ public class ServerData {
 	}
 	
 	public synchronized void removeRecipe(String recipeTitle){
+		
 		System.err.println("Error: removeRecipe method (recipesService.serverData) not yet implemented");
+
 	}
 	
-	private synchronized void purgeTombstones(){
-		if (ack == null){
-			return;
-		}
-		TimestampVector sum = ack.minTimestampVector();
-		
-		List<Timestamp> newTombstones = new Vector<Timestamp>();
-		for(int i=0; i<tombstones.size(); i++){
-			if (tombstones.get(i).compare(sum.getLast(tombstones.get(i).getHostid()))>0){
-				newTombstones.add(tombstones.get(i));
+
+	public synchronized void execOperation(Operation op) {
+		if (log.add(op)) {
+			if (op.getType().equals(OperationType.ADD)) {
+				recipes.add(((AddOperation)op).getRecipe());
+			} else {
+				recipes.remove(((RemoveOperation)op).getRecipeTitle());
 			}
 		}
-		tombstones = newTombstones;
 	}
+
+    // public synchronized void execOperation(AddOperation addOp) {
+    //     if (this.log.add(addOp)) {
+    //         this.recipes.add(addOp.getRecipe());
+    //     }
+    // }
+
+
+    // public synchronized void execOperation(RemoveOperation removeOp) {
+    //     if (this.log.add(removeOp)) {
+    //         this.recipes.remove(removeOp.getRecipeTitle());
+    //     }
+    // }
 	
 	// ****************************************************************************
 	// *** operations to get the TSAE data structures. Used to send to evaluation
@@ -195,6 +207,10 @@ public class ServerData {
 	}
 	public String getId(){
 		return this.id;
+	}
+
+	public String getGroupId(){
+		return this.groupId;
 	}
 
 	public int getNumberSessions(){

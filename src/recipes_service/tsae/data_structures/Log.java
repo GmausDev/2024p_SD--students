@@ -73,31 +73,47 @@ public class Log implements Serializable{
 	 */
 	public synchronized boolean add(Operation op){
 		// ....
-		String idHost = op.getTimestamp().getHostid();
-		List<Operation> operationList = log.get(idHost);
-		Timestamp last;
-		if (!operationList.isEmpty())
-		{
-			last = operationList.get(operationList.size()-1).getTimestamp();
-		}else
-		{
-			last= null;
-		}
-		
-		if (op.getTimestamp().compare(last)<0)
-		{
-			return false;
-		}else
-		{
-			log.get(idHost).add(op);
-			return true;				
-		}
+        String hostId = op.getTimestamp().getHostid();
+        Timestamp lastTimestamp = this.getLastTimestamp(hostId);
+        long timestampDifference = op.getTimestamp().compare(lastTimestamp);
+
+        /**
+         * Check if the inserted Operation is the next to follow.
+         * If yes, insert it and return true so it can be purged eventually later,
+         * otherwise return false so that it is kept for later.
+         */
+        
+        if ((lastTimestamp == null && timestampDifference == 0)
+                || (lastTimestamp != null && timestampDifference == 1)) {
+            this.log.get(hostId).add(op);
+            return true;
+        } else {
+            return false;
+        }
 	}
 	
-	public List<Operation> listNewer(TimestampVector sum){
+	public synchronized List<Operation> listNewer(TimestampVector sum){
+        List<Operation> missingList = new Vector();
 
-		// return generated automatically. Remove it when implementing your solution 
-		return null;
+        /**
+         * Go through all the hosts in the log
+         */
+
+        for (String node : this.log.keySet()) {
+            List<Operation> operations = this.log.get(node);
+            Timestamp timestampToCompare = sum.getLast(node);
+
+        	/**
+        	 * Go through all the operations per host and collect all those which are smaller
+        	 * than the timestampVector passed formthe specific host.
+        	 */
+            for (Operation op : operations) {
+                if (op.getTimestamp().compare(timestampToCompare) > 0) {
+                    missingList.add(op);
+                }
+            }
+        }
+        return missingList;
 	}
 	
 	/**
@@ -107,7 +123,17 @@ public class Log implements Serializable{
 	 * ackSummary. 
 	 * @param ack: ackSummary.
 	 */
-	public void purgeLog(TimestampMatrix ack){
+	public synchronized void purgeLog(TimestampMatrix ack){
+		List<String> participants = new Vector<String>(this.log.keySet());
+		TimestampVector min = ack.minTimestampVector();
+		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
+			String node = it.next();
+			for (Iterator<Operation> opIt = log.get(node).iterator(); opIt.hasNext();) {
+				if (min.getLast(node) != null && opIt.next().getTimestamp().compare(min.getLast(node)) <= 0) {
+					opIt.remove();
+				}
+			}
+		}
 	}
 
 	/**
@@ -115,21 +141,23 @@ public class Log implements Serializable{
 	 */
 	@Override
 	public boolean equals(Object obj) {
-		if (obj == null )
-		{
-			return false;
-		}
-		if(this == obj)
-		{
-			return true;
-		}
-		if(getClass()!=obj.getClass())
-		{
-			return false;
-		}
-		Log newLog=(Log) obj;
+        if (obj == null) {
+            return false;
+        } else if (this == obj) {
+            return true;
+        } else if (!(obj instanceof Log)) {
+            return false;
+        }
 
-		return log.equals(newLog.log);
+        Log other = (Log) obj;
+
+        if (this.log == other.log) {
+            return true;
+        } else if (this.log == null || other.log == null) {
+            return false;
+        } else {
+            return this.log.equals(other.log);
+        }
 	}
 
 	/**
@@ -148,4 +176,13 @@ public class Log implements Serializable{
 		
 		return name;
 	}
+	private Timestamp getLastTimestamp(String hostId) {
+        List<Operation> operations = this.log.get(hostId);
+
+        if (operations == null || operations.isEmpty()) {
+            return null;
+        } else {
+            return operations.get(operations.size() - 1).getTimestamp();
+        }
+    }
 }
