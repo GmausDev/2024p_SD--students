@@ -164,7 +164,8 @@ public class TSAESessionOriginatorSide extends TimerTask{
                         // }
 						for (MessageOperation msgops : msgOperationList) {
 							serverData.execOpRemoveAdd(msgops.getOperation());
-						} 
+						}
+						serverData.armaggedon(localSummary);
                         serverData.getSummary().updateMax(partner.getSummary());
                         serverData.getAck().updateMax(partner.getAck());
 						serverData.getLog().purgeLog(serverData.getAck());

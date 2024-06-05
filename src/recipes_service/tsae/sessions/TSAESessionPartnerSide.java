@@ -136,6 +136,7 @@ public class TSAESessionPartnerSide extends Thread{
 							serverData.execOpRemoveAdd(msgops.getOperation());
 						
 						} 
+						serverData.armaggedon(localSummary);
                         serverData.getSummary().updateMax(originator.getSummary());
                         serverData.getAck().updateMax(originator.getAck());
 						serverData.getLog().purgeLog(serverData.getAck());

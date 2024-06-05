@@ -112,6 +112,19 @@ public class Log implements Serializable{
 		return list;
 	}
 	
+
+	public synchronized List<Operation> list(String id , Timestamp primero){
+
+		List<Operation> msg= new Vector<Operation>();
+		for(Operation op : log.get(id))
+		{
+			if(op.getTimestamp().compare(primero)>0)
+				msg.add(op);
+
+		}
+		return msg;
+
+	}
 	/**
 	 * Removes from the log the operations that have
 	 * been acknowledged by all the members

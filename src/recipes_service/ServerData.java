@@ -273,7 +273,40 @@ public class ServerData {
 			
 		
 	}
+	public synchronized void armaggedon (TimestampVector localN)
+	{
+		List<String> group = participants.getIds();
+		List<Operation> msg;
+		for(String id: group)
+		{
+			msg = getLog().list(id, localN.getLast(id));
+			
+			for(Operation ops: msg){
+				if(ops.getType()== OperationType.ADD)
+				{
+					AddOperation recipe = (AddOperation) ops;
+					if(!tombstones.contains(recipe.getRecipe().getTimestamp())){
+						Recipe protocol = new Recipe(recipe.getRecipe().getTitle(), recipe.getRecipe().getRecipe(),id,recipe.getTimestamp());
+						recipes.add(protocol);
 
+					}
+				}
+				if(ops.getType()== OperationType.REMOVE)
+				{
+					RemoveOperation recipe = (RemoveOperation) ops;
+					if(recipes.contains(recipe.getRecipeTitle())){
+						recipes.remove(recipe.getRecipeTitle());
+					}else{
+						tombstones.add(recipe.getRecipeTimestamp());
+					}
+		
+				}
+
+			}
+
+		}
+
+	}
 	
 	// ****************************************************************************
 	// *** operations to get the TSAE data structures. Used to send to evaluation
