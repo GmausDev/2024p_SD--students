@@ -52,9 +52,10 @@ public class TimestampMatrix implements Serializable{
 	 * Represents a matrix of timestamps.
 	 * This class provides methods to manipulate and access the timestamps in the matrix.
 	 */
-	private TimestampMatrix() {
-    }
 
+	private TimestampMatrix(ConcurrentHashMap<String, TimestampVector>timestampMatrix) {
+		this.timestampMatrix = new ConcurrentHashMap<String, TimestampVector>(timestampMatrix);
+	}
 	/**
 	 * Represents a vector of timestamps associated with a node.
 	 * This class is used in the TimestampMatrix to store and retrieve timestamps for each node.
@@ -77,18 +78,32 @@ public class TimestampMatrix implements Serializable{
 	 * @param tsMatrix The TimestampMatrix containing the values to update the maximum with.
 	 */
 	public synchronized void updateMax(TimestampMatrix tsMatrix){
-        for (Map.Entry<String, TimestampVector> entry : tsMatrix.timestampMatrix.entrySet()) {
-            String key = entry.getKey();
-            // TimestampVector otherValue = entry.getValue();
+		TimestampVector valueTs;
+		String key;
+		//iterate each key from matrix tsMatrix
+		for(Map.Entry<String, TimestampVector> tsKey:tsMatrix.timestampMatrix.entrySet()){
+			//Save the values in the variables 
+			key = tsKey.getKey();
+			valueTs = tsKey.getValue();
+			
+			//Check that the actual timestamp != null and refresh it
+			TimestampVector thisValueTs = this.timestampMatrix.get(key);
+			if(thisValueTs != null) {
+				thisValueTs.updateMax(valueTs);
+			}
+		}
+		// for (Map.Entry<String, TimestampVector> entry : tsMatrix.timestampMatrix.entrySet()) {
+        //     String key = entry.getKey();
+        //     // TimestampVector otherValue = entry.getValue();
 
-			timestampMatrix.get(key).updateMax(tsMatrix.getTimestampVector(key));
-			// TimestampVector thisValue = getTimestampVector(key);
+		// 	timestampMatrix.get(key).updateMax(tsMatrix.getTimestampVector(key));
+		// 	// TimestampVector thisValue = getTimestampVector(key);
 
-            // TimestampVector thisValue = this.timestampMatrix.get(key);
-            // if (thisValue != null) {
-            //     thisValue.updateMax(otherValue);
-            // }
-        }
+        //     // TimestampVector thisValue = this.timestampMatrix.get(key);
+        //     // if (thisValue != null) {
+        //     //     thisValue.updateMax(otherValue);
+        //     // }
+        // }
 	}
 	
 
@@ -106,7 +121,8 @@ public class TimestampMatrix implements Serializable{
 	 * @return a timestamp vector containing, for each node, 
 	 * the timestamp known by all participants
 	 */
-	public synchronized TimestampVector minTimestampVector(){
+	// TBD: JQ REVIEW
+	public  TimestampVector minTimestampVector(){
 
 		TimestampVector min = null;		
 		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
@@ -124,13 +140,8 @@ public class TimestampMatrix implements Serializable{
 	/**
 	* Clone
 	 */
-	public TimestampMatrix clone(){
-        TimestampMatrix matrix = new TimestampMatrix();
-
-        for (Map.Entry<String, TimestampVector> entry : timestampMatrix.entrySet()) {
-            matrix.timestampMatrix.put(entry.getKey(), entry.getValue().clone());
-        }
-		return matrix;
+	public synchronized TimestampMatrix clone(){
+		return (new TimestampMatrix(timestampMatrix));
 	}
 	
 	/**
@@ -139,14 +150,20 @@ public class TimestampMatrix implements Serializable{
 	@Override
 	public boolean equals(Object obj) {
 
-		if (this == obj)
+		if(obj==null) {
+			return false;
+			
+		}else if (this == obj) {
 			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		TimestampMatrix other = (TimestampMatrix) obj;
-		return other.timestampMatrix.equals(timestampMatrix);
+			
+		}else if (obj instanceof TimestampMatrix){
+			TimestampMatrix other = (TimestampMatrix)obj;
+			
+			for (String name:this.timestampMatrix.keySet()) {
+				return this.timestampMatrix.get(name).equals(other.timestampMatrix.get(name));
+			}
+		}
+		return false;
 	}
 
 	
