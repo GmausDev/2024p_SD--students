@@ -119,11 +119,13 @@ public class TSAESessionOriginatorSide extends TimerTask{
 			
             // receive operations from partner
 			List<Operation> ops = new ArrayList<Operation>();
+			List<MessageOperation> msgOperationList = new Vector<MessageOperation>();
 			msg = (Message) in.readObject();
 			LSimLogger.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] received message: "+msg);
 			while (msg.type() == MsgType.OPERATION){
 				// ...
 				ops.add(((MessageOperation)msg).getOperation());
+				msgOperationList.add((MessageOperation)msg);
 				msg = (Message) in.readObject();
 				LSimLogger.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] received message: "+msg);
 			}
@@ -157,9 +159,12 @@ public class TSAESessionOriginatorSide extends TimerTask{
 				if (msg.type() == MsgType.END_TSAE){
 					// 
 					synchronized (serverData) {
-                        for (Operation op : ops) {
-                            serverData.execOperation(op);
-                        }
+                        // for (Operation op : ops) {
+                        //     serverData.execOperation(op);
+                        // }
+						for (MessageOperation msgops : msgOperationList) {
+							serverData.execOpRemoveAdd(msgops.getOperation());
+						} 
                         serverData.getSummary().updateMax(partner.getSummary());
                         serverData.getAck().updateMax(partner.getAck());
 						serverData.getLog().purgeLog(serverData.getAck());

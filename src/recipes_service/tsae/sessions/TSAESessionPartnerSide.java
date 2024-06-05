@@ -107,10 +107,12 @@ public class TSAESessionPartnerSide extends Thread{
 
 	            // receive operations
 				List<Operation> ops = new ArrayList<Operation>();
+				List <MessageOperation> msgOperationList = new Vector<MessageOperation>();
 				msg = (Message) in.readObject();
 				LSimLogger.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] received message: "+ msg);
 				while (msg.type() == MsgType.OPERATION){
 					// ...
+					msgOperationList.add((MessageOperation) msg);
 					Operation op = ((MessageOperation)msg).getOperation();
 					ops.add(op);
 					
@@ -127,9 +129,13 @@ public class TSAESessionPartnerSide extends Thread{
 					LSimLogger.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] sent message: "+ msg);
 
                     synchronized (serverData) {
-                        for (Operation op : ops) {
-                                serverData.execOperation(op);
-                        }
+                        // for (Operation op : ops) {
+                        //         serverData.execOperation(op);
+                        // }
+						for (MessageOperation msgops : msgOperationList) {
+							serverData.execOpRemoveAdd(msgops.getOperation());
+						
+						} 
                         serverData.getSummary().updateMax(originator.getSummary());
                         serverData.getAck().updateMax(originator.getAck());
 						serverData.getLog().purgeLog(serverData.getAck());

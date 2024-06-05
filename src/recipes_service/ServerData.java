@@ -218,6 +218,62 @@ public class ServerData {
 	}
 
 
+		
+	public synchronized void execOpRemoveAdd (Operation removeOrAddOperation) { 
+	
+		//Checks if msg is ADD
+		if(removeOrAddOperation.getType().equals(OperationType.ADD)) {
+			synchronized (tombstones) {
+				
+				//RemoveOrAddOperation transformed into an ADD operation 
+				AddOperation AddAuxOp = (AddOperation) removeOrAddOperation;
+				Timestamp addAuxTimestamp = AddAuxOp.getTimestamp();
+				
+				//Check if the addOperation was add into the log
+				if(log.add(AddAuxOp)) {
+					recipes.add(AddAuxOp.getRecipe());
+					
+					//check the tombstone and if it have it it get removed
+					if(tombstones.contains(addAuxTimestamp)) {
+						recipes.remove(AddAuxOp.getRecipe().getTitle());
+						tombstones.remove(addAuxTimestamp);
+						//
+					}
+				}
+			}
+			//If the msg is remove
+		}else if(removeOrAddOperation.getType().equals(OperationType.REMOVE)){
+			
+			synchronized (tombstones) {
+				//As before, the RemoveOrAddOperation get transformed into and Remove operation so I can use his funcionalities
+				RemoveOperation removeAuxOp = (RemoveOperation) removeOrAddOperation;
+				Timestamp removeauxTimestamp = removeAuxOp.getTimestamp();
+				
+				
+				//checks the log for the operation
+				if(log.add(removeAuxOp)) {
+					//check that the title of the recipe is not null, so we know that exist, then delete it
+					if(recipes.get(removeAuxOp.getRecipeTitle()) != null) {
+						recipes.remove(removeAuxOp.getRecipeTitle());
+						
+						//Check if tombstone have the timestamp, if it have it then it get removed (as before in the Add secction)
+						if(tombstones.contains(removeAuxOp.getRecipeTimestamp())) {
+							tombstones.remove(removeauxTimestamp);
+							
+							//check if tombstone doesnt have it, then add it
+						} else if(!(tombstones.contains(removeAuxOp.getRecipeTimestamp()))){
+							tombstones.add(removeauxTimestamp);
+							
+						}
+					}
+				}
+				
+			}
+		}
+			
+		
+	}
+
 	
 	// ****************************************************************************
 	// *** operations to get the TSAE data structures. Used to send to evaluation
