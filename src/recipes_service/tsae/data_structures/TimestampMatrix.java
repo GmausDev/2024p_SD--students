@@ -106,7 +106,7 @@ public class TimestampMatrix implements Serializable{
 	 * @return a timestamp vector containing, for each node, 
 	 * the timestamp known by all participants
 	 */
-	public TimestampVector minTimestampVector(){
+	public synchronized TimestampVector minTimestampVector(){
 
 		TimestampVector min = null;		
 		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
@@ -124,7 +124,7 @@ public class TimestampMatrix implements Serializable{
 	/**
 	* Clone
 	 */
-	public syncTimestampMatrix clone(){
+	public TimestampMatrix clone(){
         TimestampMatrix matrix = new TimestampMatrix();
 
         for (Map.Entry<String, TimestampVector> entry : timestampMatrix.entrySet()) {

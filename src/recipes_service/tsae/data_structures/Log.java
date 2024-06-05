@@ -77,12 +77,6 @@ public class Log implements Serializable{
         String hostId = op.getTimestamp().getHostid();
         Timestamp lastTimestamp = this.getLastTimestamp(hostId);
         long timestampDifference = op.getTimestamp().compare(lastTimestamp);
-
-        /**
-         * Check if the inserted Operation is the next to follow.
-         * If yes, insert it and return true so it can be purged eventually later,
-         * otherwise return false so that it is kept for later.
-         */
         
         if ((lastTimestamp == null && timestampDifference == 0)
                 || (lastTimestamp != null && timestampDifference == 1)) {
