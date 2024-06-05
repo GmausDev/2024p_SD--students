@@ -1,0 +1,2681 @@
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35002] Result:
+ 
+Node id: Server@127.0.1.1:35002
+Recipes: {cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], oqpcbgci=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35003] Result:
+ 
+Node id: Server@127.0.1.1:35003
+Recipes: {cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35001] Result:
+ 
+Node id: Server@127.0.1.1:35001
+Recipes: {bvgdvakb=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ibqrpfsj=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], jlpceecq=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], oqpcbgci=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wqxhxrfq=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35004] Result:
+ 
+Node id: Server@127.0.1.1:35004
+Recipes: {cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35010] Result:
+ 
+Node id: Server@127.0.1.1:35010
+Recipes: {bvgdvakb=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], oqpcbgci=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35008] Result:
+ 
+Node id: Server@127.0.1.1:35008
+Recipes: {cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:47
+----- [Server@127.0.1.1:35012] Result:
+ 
+Node id: Server@127.0.1.1:35012
+Recipes: {cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+
+##### 2024/06/06 01:10:48
+----- [Server@127.0.1.1:35011] Result:
+ 
+Node id: Server@127.0.1.1:35011
+Recipes: {bwkxcpcs=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], cjhiwlcv=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], dyaqkatp=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], fibarigw=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], gewvsfjs=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], hixlcjng=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], ikokmypw=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], jarctjxy=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], joxrnqei=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], juakabnd=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], kdmyusdy=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], kkvonkjr=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], ncneootk=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], nghnslqw=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], ocvrboci=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], odyhtgvs=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], ojbhmyyp=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], ooyysevs=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], ornmmwfb=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], qysbctpr=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], rdakakkc=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], sunjlabn=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], triblclt=[triblclt, Content--triblclt, Server@127.0.1.1:35005], uoldgadf=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], wsrelaah=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], yjjffckg=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004]}
+Log: AddOperation [recipe=[pptqiblc, Content--pptqiblc, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   0]
+AddOperation [recipe=[fibarigw, Content--fibarigw, Server@127.0.1.1:35000], timestamp=Server@127.0.1.1:35000:   1]
+RemoveOperation [recipeTitle=oqpcbgci, recipeTimestamp=Server@127.0.1.1:35011:   1, timestamp=Server@127.0.1.1:35000:   2]
+AddOperation [recipe=[pbluqiwb, Content--pbluqiwb, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   0]
+AddOperation [recipe=[oqpcbgci, Content--oqpcbgci, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   1]
+AddOperation [recipe=[kitdfhye, Content--kitdfhye, Server@127.0.1.1:35011], timestamp=Server@127.0.1.1:35011:   2]
+RemoveOperation [recipeTitle=triblclt, recipeTimestamp=Server@127.0.1.1:35005:   1, timestamp=Server@127.0.1.1:35010:   0]
+RemoveOperation [recipeTitle=jlpceecq, recipeTimestamp=Server@127.0.1.1:35013:   3, timestamp=Server@127.0.1.1:35010:   1]
+RemoveOperation [recipeTitle=ivmrepcq, recipeTimestamp=Server@127.0.1.1:35012:   3, timestamp=Server@127.0.1.1:35010:   2]
+RemoveOperation [recipeTitle=qvdjulmb, recipeTimestamp=Server@127.0.1.1:35014:   0, timestamp=Server@127.0.1.1:35002:   0]
+RemoveOperation [recipeTitle=sunjlabn, recipeTimestamp=Server@127.0.1.1:35009:   1, timestamp=Server@127.0.1.1:35002:   1]
+RemoveOperation [recipeTitle=pbluqiwb, recipeTimestamp=Server@127.0.1.1:35011:   0, timestamp=Server@127.0.1.1:35002:   2]
+RemoveOperation [recipeTitle=wqxhxrfq, recipeTimestamp=Server@127.0.1.1:35014:   3, timestamp=Server@127.0.1.1:35002:   3]
+AddOperation [recipe=[kdmyusdy, Content--kdmyusdy, Server@127.0.1.1:35002], timestamp=Server@127.0.1.1:35002:   4]
+AddOperation [recipe=[vxqlxjjw, Content--vxqlxjjw, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   0]
+AddOperation [recipe=[c^tnetgc, Content--c^tnetgc, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   1]
+AddOperation [recipe=[gqjdbdyd, Content--gqjdbdyd, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   2]
+AddOperation [recipe=[jlpceecq, Content--jlpceecq, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   3]
+RemoveOperation [recipeTitle=ibqrpfsj, recipeTimestamp=Server@127.0.1.1:35005:   4, timestamp=Server@127.0.1.1:35013:   4]
+AddOperation [recipe=[wsrelaah, Content--wsrelaah, Server@127.0.1.1:35013], timestamp=Server@127.0.1.1:35013:   5]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35001:   0]
+AddOperation [recipe=[xpboxcha, Content--xpboxcha, Server@127.0.1.1:35001], timestamp=Server@127.0.1.1:35001:   1]
+RemoveOperation [recipeTitle=tckberac, recipeTimestamp=Server@127.0.1.1:35008:   3, timestamp=Server@127.0.1.1:35001:   2]
+AddOperation [recipe=[kkvonkjr, Content--kkvonkjr, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   0]
+AddOperation [recipe=[muyxcxov, Content--muyxcxov, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   1]
+AddOperation [recipe=[qfqkstno, Content--qfqkstno, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   2]
+AddOperation [recipe=[ivmrepcq, Content--ivmrepcq, Server@127.0.1.1:35012], timestamp=Server@127.0.1.1:35012:   3]
+RemoveOperation [recipeTitle=bvgdvakb, recipeTimestamp=Server@127.0.1.1:35003:   2, timestamp=Server@127.0.1.1:35012:   4]
+RemoveOperation [recipeTitle=kitdfhye, recipeTimestamp=Server@127.0.1.1:35011:   2, timestamp=Server@127.0.1.1:35012:   5]
+AddOperation [recipe=[ikokmypw, Content--ikokmypw, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   0]
+RemoveOperation [recipeTitle=bwkxcpcs, recipeTimestamp=Server@127.0.1.1:35005:   2, timestamp=Server@127.0.1.1:35004:   1]
+AddOperation [recipe=[rdakakkc, Content--rdakakkc, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   2]
+AddOperation [recipe=[jarctjxy, Content--jarctjxy, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   3]
+AddOperation [recipe=[gewvsfjs, Content--gewvsfjs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   4]
+AddOperation [recipe=[odyhtgvs, Content--odyhtgvs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   5]
+AddOperation [recipe=[yjjffckg, Content--yjjffckg, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   6]
+AddOperation [recipe=[ooyysevs, Content--ooyysevs, Server@127.0.1.1:35004], timestamp=Server@127.0.1.1:35004:   7]
+RemoveOperation [recipeTitle=gqjdbdyd, recipeTimestamp=Server@127.0.1.1:35013:   2, timestamp=Server@127.0.1.1:35004:   8]
+RemoveOperation [recipeTitle=pptqiblc, recipeTimestamp=Server@127.0.1.1:35000:   0, timestamp=Server@127.0.1.1:35003:   0]
+AddOperation [recipe=[ncneootk, Content--ncneootk, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   1]
+AddOperation [recipe=[bvgdvakb, Content--bvgdvakb, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   2]
+RemoveOperation [recipeTitle=muyxcxov, recipeTimestamp=Server@127.0.1.1:35012:   1, timestamp=Server@127.0.1.1:35003:   3]
+AddOperation [recipe=[nghnslqw, Content--nghnslqw, Server@127.0.1.1:35003], timestamp=Server@127.0.1.1:35003:   4]
+RemoveOperation [recipeTitle=jsrakyhb, recipeTimestamp=Server@127.0.1.1:35014:   4, timestamp=Server@127.0.1.1:35003:   5]
+AddOperation [recipe=[qvdjulmb, Content--qvdjulmb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   0]
+AddOperation [recipe=[joxrnqei, Content--joxrnqei, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   1]
+AddOperation [recipe=[qysbctpr, Content--qysbctpr, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   2]
+AddOperation [recipe=[wqxhxrfq, Content--wqxhxrfq, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   3]
+AddOperation [recipe=[jsrakyhb, Content--jsrakyhb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   4]
+AddOperation [recipe=[ornmmwfb, Content--ornmmwfb, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   5]
+AddOperation [recipe=[hixlcjng, Content--hixlcjng, Server@127.0.1.1:35014], timestamp=Server@127.0.1.1:35014:   6]
+AddOperation [recipe=[bglwtksq, Content--bglwtksq, Server@127.0.1.1:35006], timestamp=Server@127.0.1.1:35006:   0]
+RemoveOperation [recipeTitle=c^tnetgc, recipeTimestamp=Server@127.0.1.1:35013:   1, timestamp=Server@127.0.1.1:35006:   1]
+AddOperation [recipe=[vljsujdy, Content--vljsujdy, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   0]
+AddOperation [recipe=[triblclt, Content--triblclt, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   1]
+AddOperation [recipe=[bwkxcpcs, Content--bwkxcpcs, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   2]
+AddOperation [recipe=[vmlmenca, Content--vmlmenca, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   3]
+AddOperation [recipe=[ibqrpfsj, Content--ibqrpfsj, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   4]
+RemoveOperation [recipeTitle=bglwtksq, recipeTimestamp=Server@127.0.1.1:35006:   0, timestamp=Server@127.0.1.1:35005:   5]
+AddOperation [recipe=[uoldgadf, Content--uoldgadf, Server@127.0.1.1:35005], timestamp=Server@127.0.1.1:35005:   6]
+AddOperation [recipe=[ocvrboci, Content--ocvrboci, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   0]
+AddOperation [recipe=[juakabnd, Content--juakabnd, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   1]
+AddOperation [recipe=[ojbhmyyp, Content--ojbhmyyp, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   2]
+AddOperation [recipe=[tckberac, Content--tckberac, Server@127.0.1.1:35008], timestamp=Server@127.0.1.1:35008:   3]
+RemoveOperation [recipeTitle=vxqlxjjw, recipeTimestamp=Server@127.0.1.1:35013:   0, timestamp=Server@127.0.1.1:35007:   0]
+RemoveOperation [recipeTitle=vljsujdy, recipeTimestamp=Server@127.0.1.1:35005:   0, timestamp=Server@127.0.1.1:35007:   1]
+RemoveOperation [recipeTitle=vmlmenca, recipeTimestamp=Server@127.0.1.1:35005:   3, timestamp=Server@127.0.1.1:35007:   2]
+RemoveOperation [recipeTitle=qfqkstno, recipeTimestamp=Server@127.0.1.1:35012:   2, timestamp=Server@127.0.1.1:35007:   3]
+AddOperation [recipe=[dyaqkatp, Content--dyaqkatp, Server@127.0.1.1:35007], timestamp=Server@127.0.1.1:35007:   4]
+AddOperation [recipe=[cjhiwlcv, Content--cjhiwlcv, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   0]
+AddOperation [recipe=[sunjlabn, Content--sunjlabn, Server@127.0.1.1:35009], timestamp=Server@127.0.1.1:35009:   1]
+RemoveOperation [recipeTitle=xpboxcha, recipeTimestamp=Server@127.0.1.1:35001:   1, timestamp=Server@127.0.1.1:35009:   2]
+
+Summary: Server@127.0.1.1:35000:   2
+Server@127.0.1.1:35011:   2
+Server@127.0.1.1:35010:   2
+Server@127.0.1.1:35002:   4
+Server@127.0.1.1:35013:   5
+Server@127.0.1.1:35001:   2
+Server@127.0.1.1:35012:   5
+Server@127.0.1.1:35004:   8
+Server@127.0.1.1:35003:   5
+Server@127.0.1.1:35014:   6
+Server@127.0.1.1:35006:   1
+Server@127.0.1.1:35005:   6
+Server@127.0.1.1:35008:   3
+Server@127.0.1.1:35007:   4
+Server@127.0.1.1:35009:   2
+
+Ack: Server@127.0.1.1:35000:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35011:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35010:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35002:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35013:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35001:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35012:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35004:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35003:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35014:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35006:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35005:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35008:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35007:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+Server@127.0.1.1:35009:   Server@127.0.1.1:35000:   -1000
+Server@127.0.1.1:35011:   -1000
+Server@127.0.1.1:35010:   -1000
+Server@127.0.1.1:35002:   -1000
+Server@127.0.1.1:35013:   -1000
+Server@127.0.1.1:35001:   -1000
+Server@127.0.1.1:35012:   -1000
+Server@127.0.1.1:35004:   -1000
+Server@127.0.1.1:35003:   -1000
+Server@127.0.1.1:35014:   -1000
+Server@127.0.1.1:35006:   -1000
+Server@127.0.1.1:35005:   -1000
+Server@127.0.1.1:35008:   -1000
+Server@127.0.1.1:35007:   -1000
+Server@127.0.1.1:35009:   -1000
+
+================================================
