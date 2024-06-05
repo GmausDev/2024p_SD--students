@@ -79,15 +79,15 @@ public class TimestampMatrix implements Serializable{
 	public synchronized void updateMax(TimestampMatrix tsMatrix){
         for (Map.Entry<String, TimestampVector> entry : tsMatrix.timestampMatrix.entrySet()) {
             String key = entry.getKey();
-            TimestampVector otherValue = entry.getValue();
+            // TimestampVector otherValue = entry.getValue();
 
-
+			timestampMatrix.get(key).updateMax(tsMatrix.getTimestampVector(key));
 			// TimestampVector thisValue = getTimestampVector(key);
 
-            TimestampVector thisValue = this.timestampMatrix.get(key);
-            if (thisValue != null) {
-                thisValue.updateMax(otherValue);
-            }
+            // TimestampVector thisValue = this.timestampMatrix.get(key);
+            // if (thisValue != null) {
+            //     thisValue.updateMax(otherValue);
+            // }
         }
 	}
 	
