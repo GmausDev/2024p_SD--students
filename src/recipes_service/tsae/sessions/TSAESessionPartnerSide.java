@@ -70,13 +70,6 @@ public class TSAESessionPartnerSide extends Thread{
 		try {
 			ObjectOutputStream_DS out = new ObjectOutputStream_DS(socket.getOutputStream());
 			ObjectInputStream_DS in = new ObjectInputStream_DS(socket.getInputStream());
-			TimestampVector localSummary;
-			TimestampMatrix localAck;
-            synchronized (serverData) {
-                localSummary = serverData.getSummary().clone();
-                serverData.getAck().update(serverData.getId(), localSummary);
-                localAck = serverData.getAck().clone();
-            }
 
 			// receive request from originator and update local state
 			// receive originator's summary and ack
@@ -86,9 +79,17 @@ public class TSAESessionPartnerSide extends Thread{
 			LSimLogger.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] received message: "+ msg);
 			if (msg.type() == MsgType.AE_REQUEST){
 				// ...
+				TimestampVector localSummary;
+				TimestampMatrix localAck;
+		
 				MessageAErequest originator = (MessageAErequest) msg;
+				
+				synchronized (serverData) {
+					localSummary = serverData.getSummary().clone();
+					// serverData.getAck().update(serverData.getId(), localSummary);
+					localAck = serverData.getAck().clone();
+				}
 				List<Operation> operations = serverData.getLog().listNewer(originator.getSummary());
-
 	            // send operations
 				for (Operation op: operations) {
 					msg = new MessageOperation(op);

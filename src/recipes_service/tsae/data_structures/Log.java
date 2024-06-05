@@ -143,24 +143,25 @@ public class Log implements Serializable{
         //     }
 		// }
 
-
-		List<String> participants = new Vector<String>(this.log.keySet());
-		TimestampVector min = ack.minTimestampVector();
-		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
-			String node = it.next();
-			for (Iterator<Operation> opIt = log.get(node).iterator(); opIt.hasNext();) {
-				if (min.getLast(node) != null && opIt.next().getTimestamp().compare(min.getLast(node)) <= 0) {
-					opIt.remove();
+		String auxKey;
+		List<String> keyList = new Vector<String>(this.log.keySet());
+		TimestampVector timestampVectorMin = ack.minTimestampVector();
+		for(Iterator<String> key = keyList.iterator(); key.hasNext();) {
+			auxKey = key.next();
+			for (Iterator<Operation> ops = log.get(auxKey).iterator();ops.hasNext();) {
+				if(!(timestampVectorMin.getLast(auxKey)== null) && !(ops.next().getTimestamp().compare(timestampVectorMin.getLast(auxKey))>0)) {
+					ops.remove();
 				}
 			}
 		}
+
 	}
 
 	/**
 	 * equals
 	 */
 	@Override
-	public boolean equals(Object obj) {
+	public synchronized boolean equals(Object obj) {
         if (obj == null) {
             return false;
         } else if (this == obj) {
