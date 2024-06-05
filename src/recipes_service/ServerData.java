@@ -192,27 +192,27 @@ public class ServerData {
 				}
 			}
 		} 
-		else 
+		else if(op.getType().equals(OperationType.REMOVE))
 		{
-			if(op.getType().equals(OperationType.REMOVE)){
-				synchronized (tombstones) {
-					if(log.add(op)) {
-						if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
-							recipes.remove(((RemoveOperation)op).getRecipeTitle());
-							
-							
-							if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
-								tombstones.remove(opTimestamp);
+			
+			synchronized (tombstones) {
+				if(log.add(op)) {
+					if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
+						recipes.remove(((RemoveOperation)op).getRecipeTitle());
+						
+						
+						if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
+							tombstones.remove(opTimestamp);
 
-							} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
-								tombstones.add(opTimestamp);
-								
-							}
+						} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
+							tombstones.add(opTimestamp);
+							
 						}
 					}
-					
 				}
+				
 			}
+			
 		}
 		
 	}
