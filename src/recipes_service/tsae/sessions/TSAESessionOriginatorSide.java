@@ -112,6 +112,7 @@ public class TSAESessionOriginatorSide extends TimerTask{
 
 			// Send to partner: local's summary and ack
 			Message	msg = new MessageAErequest(localSummary, localAck);
+
 			msg.setSessionNumber(current_session_number);
             out.writeObject(msg);
 			LSimLogger.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
@@ -144,9 +145,6 @@ public class TSAESessionOriginatorSide extends TimerTask{
 					LSimLogger.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
 				}
 				
-					// msg.setSessionNumber(current_session_number);
-					// out.writeObject(msg);
-					// LSimLogger.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
 
 				// send and "end of TSAE session" message
 				msg = new MessageEndTSAE();  

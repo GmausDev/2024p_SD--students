@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.List;
+import java.util.Map;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -47,6 +48,12 @@ public class TimestampMatrix implements Serializable{
 		}
 	}
 	
+	/**
+	 * Represents a matrix of timestamps.
+	 * This class provides methods to manipulate and access the timestamps in the matrix.
+	 */
+	private TimestampMatrix() {
+    }
 
 	/**
 	 * Represents a vector of timestamps associated with a node.
@@ -70,10 +77,18 @@ public class TimestampMatrix implements Serializable{
 	 * @param tsMatrix The TimestampMatrix containing the values to update the maximum with.
 	 */
 	public synchronized void updateMax(TimestampMatrix tsMatrix){
-		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
-			String node = it.next();
-			timestampMatrix.get(node).updateMax(tsMatrix.getTimestampVector(node));
-		}
+        for (Map.Entry<String, TimestampVector> entry : tsMatrix.timestampMatrix.entrySet()) {
+            String key = entry.getKey();
+            TimestampVector otherValue = entry.getValue();
+
+
+			// TimestampVector thisValue = getTimestampVector(key);
+
+            TimestampVector thisValue = this.timestampMatrix.get(key);
+            if (thisValue != null) {
+                thisValue.updateMax(otherValue);
+            }
+        }
 	}
 	
 
@@ -84,7 +99,7 @@ public class TimestampMatrix implements Serializable{
 	 * @param tsVector the new timestamp vector to be associated with the node
 	 */
 	public synchronized void update(String node, TimestampVector tsVector){
-		timestampMatrix.put(node, tsVector);
+		this.timestampMatrix.put(node, tsVector);
 	}
 	/**
 	 * 
@@ -110,12 +125,11 @@ public class TimestampMatrix implements Serializable{
 	* Clone
 	 */
 	public TimestampMatrix clone(){
-		List<String> participants = new ArrayList<String>(timestampMatrix.keySet());
-		TimestampMatrix matrix = new TimestampMatrix(participants);
-		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
-			String participant = it.next();
-			matrix.update(participant, timestampMatrix.get(participant));
-		}
+        TimestampMatrix matrix = new TimestampMatrix();
+
+        for (Map.Entry<String, TimestampVector> entry : timestampMatrix.entrySet()) {
+            matrix.timestampMatrix.put(entry.getKey(), entry.getValue().clone());
+        }
 		return matrix;
 	}
 	
