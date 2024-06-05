@@ -21,6 +21,7 @@
 package recipes_service.tsae.data_structures;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.List;
@@ -46,31 +47,45 @@ public class TimestampMatrix implements Serializable{
 		}
 	}
 	
+
 	/**
-	 * @param node
-	 * @return the timestamp vector of node in this timestamp matrix
+	 * Represents a vector of timestamps associated with a node.
+	 * This class is used in the TimestampMatrix to store and retrieve timestamps for each node.
+	 */
+	/**
+	 * Retrieves the TimestampVector associated with the specified node.
+	 *
+	 * @param node the node for which to retrieve the TimestampVector
+	 * @return the TimestampVector associated with the specified node
 	 */
 	TimestampVector getTimestampVector(String node){
 		
-		// return generated automatically. Remove it when implementing your solution 
-		return null;
+		return timestampMatrix.get(node);
 	}
 	
+
 	/**
-	 * Merges two timestamp matrix taking the elementwise maximum
-	 * @param tsMatrix
+	 * Updates the maximum value in the current TimestampMatrix with the corresponding values from the given TimestampMatrix.
+	 * 
+	 * @param tsMatrix The TimestampMatrix containing the values to update the maximum with.
 	 */
-	public void updateMax(TimestampMatrix tsMatrix){
+	public synchronized void updateMax(TimestampMatrix tsMatrix){
+		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
+			String node = it.next();
+			timestampMatrix.get(node).updateMax(tsMatrix.getTimestampVector(node));
+		}
 	}
 	
+
 	/**
-	 * substitutes current timestamp vector of node for tsVector
-	 * @param node
-	 * @param tsVector
+	 * Updates the timestamp vector for a given node in the timestamp matrix.
+	 *
+	 * @param node the node for which to update the timestamp vector
+	 * @param tsVector the new timestamp vector to be associated with the node
 	 */
-	public void update(String node, TimestampVector tsVector){
+	public synchronized void update(String node, TimestampVector tsVector){
+		timestampMatrix.put(node, tsVector);
 	}
-	
 	/**
 	 * 
 	 * @return a timestamp vector containing, for each node, 
@@ -78,17 +93,30 @@ public class TimestampMatrix implements Serializable{
 	 */
 	public TimestampVector minTimestampVector(){
 
-		// return generated automatically. Remove it when implementing your solution 
-		return null;
+		TimestampVector min = null;		
+		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
+			String node = it.next();
+			if (min == null) {
+				min = timestampMatrix.get(node).clone();
+			} else {
+				min.mergeMin(timestampMatrix.get(node));
+			}
+		}
+		return min;
 	}
 	
+
 	/**
-	 * clone
+	* Clone
 	 */
 	public TimestampMatrix clone(){
-
-		// return generated automatically. Remove it when implementing your solution 
-		return null;
+		List<String> participants = new ArrayList<String>(timestampMatrix.keySet());
+		TimestampMatrix matrix = new TimestampMatrix(participants);
+		for (Iterator<String> it = timestampMatrix.keySet().iterator(); it.hasNext(); ){
+			String participant = it.next();
+			matrix.update(participant, timestampMatrix.get(participant));
+		}
+		return matrix;
 	}
 	
 	/**
@@ -97,8 +125,14 @@ public class TimestampMatrix implements Serializable{
 	@Override
 	public boolean equals(Object obj) {
 
-		// return generated automatically. Remove it when implementing your solution 
-		return false;
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		TimestampMatrix other = (TimestampMatrix) obj;
+		return other.timestampMatrix.equals(timestampMatrix);
 	}
 
 	

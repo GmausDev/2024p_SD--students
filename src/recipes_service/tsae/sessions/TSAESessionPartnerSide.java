@@ -131,6 +131,7 @@ public class TSAESessionPartnerSide extends Thread{
                         }
                         serverData.getSummary().updateMax(originator.getSummary());
                         serverData.getAck().updateMax(originator.getAck());
+						serverData.getLog().purgeLog(serverData.getAck());
                     }
 				}
 				
