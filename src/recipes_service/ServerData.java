@@ -155,19 +155,66 @@ public class ServerData {
 	
 	public synchronized void removeRecipe(String recipeTitle){
 		
-		System.err.println("Error: removeRecipe method (recipesService.serverData) not yet implemented");
+		Timestamp newTimestamp = nextTimestamp();
+		Recipe recipeToRemove = this.recipes.get(recipeTitle);
+
+		// Create a new remove operation with the calculated variables
+		Operation removeOperation = new RemoveOperation(recipeTitle, recipeToRemove.getTimestamp(), newTimestamp);
+
+		// Add the remove operation to the log
+		this.log.add(removeOperation);
+
+		// Update the summary timestamp
+		this.summary.updateTimestamp(newTimestamp);
+
+		// Remove the recipe from the recipes data structure
+		this.recipes.remove(recipeTitle);
 
 	}
 	
 
+	/**
+	 * Executes the specified operation on the server data.
+	 * 
+	 * @param op The operation to be executed.
+	 */
 	public synchronized void execOperation(Operation op) {
-		if (log.add(op)) {
-			if (op.getType().equals(OperationType.ADD)) {
-				recipes.add(((AddOperation)op).getRecipe());
-			} else {
-				recipes.remove(((RemoveOperation)op).getRecipeTitle());
+		Timestamp opTimestamp = op.getTimestamp();	
+		if (op.getType().equals(OperationType.ADD)) {
+			synchronized (tombstones) {				
+				if(log.add(op)) {
+					recipes.add(((AddOperation)op).getRecipe());
+					
+					if(tombstones.contains(opTimestamp)) {
+						recipes.remove(((AddOperation)op).getRecipe().getTitle());
+						tombstones.remove(opTimestamp);
+					}
+				}
+			}
+		} 
+		else 
+		{
+			if(op.getType().equals(OperationType.REMOVE)){
+				synchronized (tombstones) {
+					if(log.add(op)) {
+						if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
+							recipes.remove(((RemoveOperation)op).getRecipeTitle());
+							
+							
+							if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
+								tombstones.remove(opTimestamp);
+
+							} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
+								tombstones.add(opTimestamp);
+								
+							}
+						}
+					}
+					
+				}
 			}
 		}
+		
 	}
 
 
