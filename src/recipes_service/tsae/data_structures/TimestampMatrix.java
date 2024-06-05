@@ -124,7 +124,7 @@ public class TimestampMatrix implements Serializable{
 	/**
 	* Clone
 	 */
-	public TimestampMatrix clone(){
+	public syncTimestampMatrix clone(){
         TimestampMatrix matrix = new TimestampMatrix();
 
         for (Map.Entry<String, TimestampVector> entry : timestampMatrix.entrySet()) {
