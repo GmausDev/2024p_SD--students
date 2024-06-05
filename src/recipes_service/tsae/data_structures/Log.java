@@ -25,6 +25,7 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.Map;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -126,16 +127,26 @@ public class Log implements Serializable{
 	 */
 	// JQ REVIEW
 	public synchronized void purgeLog(TimestampMatrix ack){
-		List<String> participants = new Vector<String>(this.log.keySet());
-		TimestampVector min = ack.minTimestampVector();
-		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
-			String node = it.next();
-			for (Iterator<Operation> opIt = log.get(node).iterator(); opIt.hasNext();) {
-				if (min.getLast(node) != null && opIt.next().getTimestamp().compare(min.getLast(node)) <= 0) {
-					opIt.remove();
-				}
-			}
-		}
+        TimestampVector minTimestampVector = ack.minTimestampVector();
+
+
+        for (Map.Entry<String, List<Operation>> entry : log.entrySet()) {
+            String participant = entry.getKey();
+            List<Operation> operations = entry.getValue();
+            Timestamp lastTimestamp = minTimestampVector.getLast(participant);
+  
+            if (lastTimestamp == null) {
+                continue;
+            }
+
+  
+            for (int i = operations.size() - 1; i >= 0; i--) {
+                Operation op = operations.get(i);
+
+                if (op.getTimestamp().compare(lastTimestamp) < 0) {
+                    operations.remove(i);
+                }
+            }
 	}
 
 	/**
