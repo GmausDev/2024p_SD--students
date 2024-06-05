@@ -106,7 +106,6 @@ public class TSAESessionOriginatorSide extends TimerTask{
 
 			synchronized (serverData) {
                 localSummary = serverData.getSummary().clone();
-                // serverData.getAck().update(serverData.getId(), localSummary);
                 localAck = serverData.getAck().clone();
             }
 

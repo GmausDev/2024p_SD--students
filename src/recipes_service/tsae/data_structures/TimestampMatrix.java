@@ -56,21 +56,7 @@ public class TimestampMatrix implements Serializable{
 	private TimestampMatrix(ConcurrentHashMap<String, TimestampVector>timestampMatrix) {
 		this.timestampMatrix = new ConcurrentHashMap<String, TimestampVector>(timestampMatrix);
 	}
-	/**
-	 * Represents a vector of timestamps associated with a node.
-	 * This class is used in the TimestampMatrix to store and retrieve timestamps for each node.
-	 */
-	/**
-	 * Retrieves the TimestampVector associated with the specified node.
-	 *
-	 * @param node the node for which to retrieve the TimestampVector
-	 * @return the TimestampVector associated with the specified node
-	 */
-	TimestampVector getTimestampVector(String node){
-		
-		return timestampMatrix.get(node);
-	}
-	
+
 
 	/**
 	 * Updates the maximum value in the current TimestampMatrix with the corresponding values from the given TimestampMatrix.
@@ -80,30 +66,15 @@ public class TimestampMatrix implements Serializable{
 	public synchronized void updateMax(TimestampMatrix tsMatrix){
 		TimestampVector valueTs;
 		String key;
-		//iterate each key from matrix tsMatrix
 		for(Map.Entry<String, TimestampVector> tsKey:tsMatrix.timestampMatrix.entrySet()){
-			//Save the values in the variables 
 			key = tsKey.getKey();
 			valueTs = tsKey.getValue();
-			
-			//Check that the actual timestamp != null and refresh it
 			TimestampVector thisValueTs = this.timestampMatrix.get(key);
 			if(thisValueTs != null) {
 				thisValueTs.updateMax(valueTs);
 			}
 		}
-		// for (Map.Entry<String, TimestampVector> entry : tsMatrix.timestampMatrix.entrySet()) {
-        //     String key = entry.getKey();
-        //     // TimestampVector otherValue = entry.getValue();
 
-		// 	timestampMatrix.get(key).updateMax(tsMatrix.getTimestampVector(key));
-		// 	// TimestampVector thisValue = getTimestampVector(key);
-
-        //     // TimestampVector thisValue = this.timestampMatrix.get(key);
-        //     // if (thisValue != null) {
-        //     //     thisValue.updateMax(otherValue);
-        //     // }
-        // }
 	}
 	
 
