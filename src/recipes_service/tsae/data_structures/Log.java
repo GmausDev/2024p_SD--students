@@ -147,6 +147,7 @@ public class Log implements Serializable{
                     operations.remove(i);
                 }
             }
+		}
 	}
 
 	/**
