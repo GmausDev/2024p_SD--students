@@ -54,7 +54,8 @@ else
 		if [ $2 -le 4 ]; then
 			# runs each java process in a different terminal emulator window
 			#gnome-terminal -x java -cp ../bin:../lib/* recipes_service.Server $* >$FILE &
-			gnome-terminal -x java -cp ../bin:../lib/* recipes_service.Server $* &
+			# gnome-terminal -x java -cp ../bin:../lib/* recipes_service.Server $* &
+			xterm -e "java -cp ../bin:../lib/* recipes_service.Server $*" &
 		else
 			# runs all java processes in the same terminal emulator window
 	#		java -cp ../bin:../lib/* recipes_service.Server $* >$FILE &
