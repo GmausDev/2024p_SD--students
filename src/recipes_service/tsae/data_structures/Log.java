@@ -91,29 +91,30 @@ public class Log implements Serializable{
             return false;
         }
 	}
+
 	
-	public synchronized List<Operation> listNewer(TimestampVector sum){
-        List<Operation> missingList = new Vector();
+	
+	/**
+	 * @param sum The sum of timestamps to compare against.
+	 * @return A list of operations that are newer than the given sum of timestamps.
+	 */
+	public synchronized List<Operation> listNewer(TimestampVector sum){	
+		List<Operation> list = new Vector<Operation>();
+		List<String> participants = new Vector<String>(this.log.keySet());
 
-        /**
-         * Go through all the hosts in the log
-         */
+		for (Iterator<String> it = participants.iterator(); it.hasNext(); ){
+			String node = it.next();
+			List<Operation> operations = new Vector<Operation>(this.log.get(node));
+			Timestamp timestampToCompare = sum.getLast(node);
 
-        for (String node : this.log.keySet()) {
-            List<Operation> operations = this.log.get(node);
-            Timestamp timestampToCompare = sum.getLast(node);
-
-        	/**
-        	 * Go through all the operations per host and collect all those which are smaller
-        	 * than the timestampVector passed formthe specific host.
-        	 */
-            for (Operation op : operations) {
-                if (op.getTimestamp().compare(timestampToCompare) > 0) {
-                    missingList.add(op);
-                }
-            }
-        }
-        return missingList;
+			for (Iterator<Operation> opIt = operations.iterator(); opIt.hasNext(); ) {
+				Operation op = opIt.next();
+				if (op.getTimestamp().compare(timestampToCompare) > 0) {
+					list.add(op);
+				}
+			}
+		}
+		return list;
 	}
 	
 	/**

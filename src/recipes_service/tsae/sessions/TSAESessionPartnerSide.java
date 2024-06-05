@@ -90,10 +90,6 @@ public class TSAESessionPartnerSide extends Thread{
 				List<Operation> operations = serverData.getLog().listNewer(originator.getSummary());
 
 	            // send operations
-					// ...
-					// out.writeObject(msg);
-					// msg.setSessionNumber(current_session_number);
-					// LSimLogger.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] sent message: "+ msg);
 				for (Operation op: operations) {
 					msg = new MessageOperation(op);
 					msg.setSessionNumber(current_session_number);
