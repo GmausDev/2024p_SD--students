@@ -202,44 +202,44 @@ public class ServerData {
 	 * 
 	 * @param op The operation to be executed.
 	 */
-	// public synchronized void execOperation(Operation op) {
-	// 	Timestamp opTimestamp = op.getTimestamp();	
-	// 	if (op.getType().equals(OperationType.ADD)) {
-	// 		synchronized (tombstones) {				
-	// 			if(log.add(op)) {
-	// 				recipes.add(((AddOperation)op).getRecipe());
+	public synchronized void execOperation(Operation op) {
+		Timestamp opTimestamp = op.getTimestamp();	
+		if (op.getType().equals(OperationType.ADD)) {
+			synchronized (tombstones) {				
+				if(log.add(op)) {
+					recipes.add(((AddOperation)op).getRecipe());
 					
-	// 				if(tombstones.contains(opTimestamp)) {
-	// 					recipes.remove(((AddOperation)op).getRecipe().getTitle());
-	// 					tombstones.remove(opTimestamp);
-	// 				}
-	// 			}
-	// 		}
-	// 	} 
-	// 	else if(op.getType().equals(OperationType.REMOVE))
-	// 	{
+					if(tombstones.contains(opTimestamp)) {
+						recipes.remove(((AddOperation)op).getRecipe().getTitle());
+						tombstones.remove(opTimestamp);
+					}
+				}
+			}
+		} 
+		else if(op.getType().equals(OperationType.REMOVE))
+		{
 			
-	// 		synchronized (tombstones) {
-	// 			if(log.add(op)) {
-	// 				if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
-	// 					recipes.remove(((RemoveOperation)op).getRecipeTitle());
+			synchronized (tombstones) {
+				if(log.add(op)) {
+					if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
+						recipes.remove(((RemoveOperation)op).getRecipeTitle());
 						
 						
-	// 					if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
-	// 						tombstones.remove(opTimestamp);
+						if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
+							tombstones.remove(opTimestamp);
 
-	// 					} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
-	// 						tombstones.add(opTimestamp);
+						} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
+							tombstones.add(opTimestamp);
 							
-	// 					}
-	// 				}
-	// 			}
+						}
+					}
+				}
 				
-	// 		}
+			}
 			
-	// 	}
+		}
 		
-	// }
+	}
 
 
 		

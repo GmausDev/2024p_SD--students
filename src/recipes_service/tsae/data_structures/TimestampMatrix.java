@@ -92,7 +92,7 @@ public class TimestampMatrix implements Serializable{
 	 * @return a timestamp vector containing, for each node, 
 	 * the timestamp known by all participants
 	 */
-	// TBD: JQ REVIEW
+	
 	public  TimestampVector minTimestampVector(){
 
 		TimestampVector min = null;		

@@ -132,10 +132,9 @@ public class Log implements Serializable{
 	 * ackSummary. 
 	 * @param ack: ackSummary.
 	 */
-	// JQ REVIEW
+
 	public synchronized void purgeLog(TimestampMatrix ack){
         // TimestampVector minTimestampVector = ack.minTimestampVector();
-
 
 		String auxKey;
 		List<String> keyList = new Vector<String>(this.log.keySet());
