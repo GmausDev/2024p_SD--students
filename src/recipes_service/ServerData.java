@@ -173,49 +173,73 @@ public class ServerData {
 	}
 	
 
+/**
+ * Executes the specified add operation, adding the recipe to the server data.
+ * If the add operation is successfully logged, the recipe is added to the list of recipes.
+ *
+ * @param addOp the add operation to be executed
+ */
+    public synchronized void execOperation(AddOperation addOp) {
+        if (this.log.add(addOp)) {
+            this.recipes.add(addOp.getRecipe());
+        }
+    }
+
+/**
+ * Executes the specified remove operation on the server data.
+ * If the remove operation is successfully added to the log, the corresponding recipe is removed from the server data.
+ *
+ * @param removeOp the remove operation to be executed
+ */
+    public synchronized void execOperation(RemoveOperation removeOp) {
+        if (this.log.add(removeOp)) {
+            this.recipes.remove(removeOp.getRecipeTitle());
+        }
+    }
+
 	/**
 	 * Executes the specified operation on the server data.
 	 * 
 	 * @param op The operation to be executed.
 	 */
-	public synchronized void execOperation(Operation op) {
-		Timestamp opTimestamp = op.getTimestamp();	
-		if (op.getType().equals(OperationType.ADD)) {
-			synchronized (tombstones) {				
-				if(log.add(op)) {
-					recipes.add(((AddOperation)op).getRecipe());
+	// public synchronized void execOperation(Operation op) {
+	// 	Timestamp opTimestamp = op.getTimestamp();	
+	// 	if (op.getType().equals(OperationType.ADD)) {
+	// 		synchronized (tombstones) {				
+	// 			if(log.add(op)) {
+	// 				recipes.add(((AddOperation)op).getRecipe());
 					
-					if(tombstones.contains(opTimestamp)) {
-						recipes.remove(((AddOperation)op).getRecipe().getTitle());
-						tombstones.remove(opTimestamp);
-					}
-				}
-			}
-		} 
-		else if(op.getType().equals(OperationType.REMOVE))
-		{
+	// 				if(tombstones.contains(opTimestamp)) {
+	// 					recipes.remove(((AddOperation)op).getRecipe().getTitle());
+	// 					tombstones.remove(opTimestamp);
+	// 				}
+	// 			}
+	// 		}
+	// 	} 
+	// 	else if(op.getType().equals(OperationType.REMOVE))
+	// 	{
 			
-			synchronized (tombstones) {
-				if(log.add(op)) {
-					if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
-						recipes.remove(((RemoveOperation)op).getRecipeTitle());
+	// 		synchronized (tombstones) {
+	// 			if(log.add(op)) {
+	// 				if(recipes.get(((RemoveOperation)op).getRecipeTitle()) != null) {
+	// 					recipes.remove(((RemoveOperation)op).getRecipeTitle());
 						
 						
-						if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
-							tombstones.remove(opTimestamp);
+	// 					if(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp())) {
+	// 						tombstones.remove(opTimestamp);
 
-						} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
-							tombstones.add(opTimestamp);
+	// 					} else if(!(tombstones.contains(((RemoveOperation)op).getRecipeTimestamp()))){
+	// 						tombstones.add(opTimestamp);
 							
-						}
-					}
-				}
+	// 					}
+	// 				}
+	// 			}
 				
-			}
+	// 		}
 			
-		}
+	// 	}
 		
-	}
+	// }
 
 
 		

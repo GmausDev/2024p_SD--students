@@ -86,7 +86,6 @@ public class TSAESessionPartnerSide extends Thread{
 				
 				synchronized (serverData) {
 					localSummary = serverData.getSummary().clone();
-					// serverData.getAck().update(serverData.getId(), localSummary);
 					localAck = serverData.getAck().clone();
 				}
 				List<Operation> operations = serverData.getLog().listNewer(originator.getSummary());
@@ -132,10 +131,17 @@ public class TSAESessionPartnerSide extends Thread{
                         // for (Operation op : ops) {
                         //         serverData.execOperation(op);
                         // }
-						for (MessageOperation msgops : msgOperationList) {
-							serverData.execOpRemoveAdd(msgops.getOperation());
+						// for (MessageOperation msgops : msgOperationList) {
+						// 	serverData.execOpRemoveAdd(msgops.getOperation());
 						
-						} 
+						// }
+						for (MessageOperation op : msgOperationList) {
+                            if (op.getOperation().getType() == OperationType.ADD) {
+                                serverData.execOperation((AddOperation) op.getOperation());
+                            } else {
+                                serverData.execOperation((RemoveOperation) op.getOperation());
+                            }
+                        }
 						serverData.armaggedon(localSummary);
                         serverData.getSummary().updateMax(originator.getSummary());
                         serverData.getAck().updateMax(originator.getAck());

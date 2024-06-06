@@ -137,25 +137,6 @@ public class Log implements Serializable{
         // TimestampVector minTimestampVector = ack.minTimestampVector();
 
 
-        // for (Map.Entry<String, List<Operation>> entry : log.entrySet()) {
-        //     String participant = entry.getKey();
-        //     List<Operation> operations = entry.getValue();
-        //     Timestamp lastTimestamp = minTimestampVector.getLast(participant);
-  
-        //     if (lastTimestamp == null) {
-        //         continue;
-        //     }
-
-  
-        //     for (int i = operations.size() - 1; i >= 0; i--) {
-        //         Operation op = operations.get(i);
-
-        //         if (op.getTimestamp().compare(lastTimestamp) < 0) {
-        //             operations.remove(i);
-        //         }
-        //     }
-		// }
-
 		String auxKey;
 		List<String> keyList = new Vector<String>(this.log.keySet());
 		TimestampVector timestampVectorMin = ack.minTimestampVector();

@@ -162,9 +162,17 @@ public class TSAESessionOriginatorSide extends TimerTask{
                         // for (Operation op : ops) {
                         //     serverData.execOperation(op);
                         // }
-						for (MessageOperation msgops : msgOperationList) {
-							serverData.execOpRemoveAdd(msgops.getOperation());
-						}
+						// for (MessageOperation msgops : msgOperationList) {
+						// 	serverData.execOpRemoveAdd(msgops.getOperation());
+						// }
+						for (MessageOperation op : msgOperationList) {
+                            if (op.getOperation().getType() == OperationType.ADD) {
+                                serverData.execOperation((AddOperation) op.getOperation());
+                            } else {
+                                serverData.execOperation((RemoveOperation) op.getOperation());
+                            }
+                        }
+						
 						serverData.armaggedon(localSummary);
                         serverData.getSummary().updateMax(partner.getSummary());
                         serverData.getAck().updateMax(partner.getAck());
